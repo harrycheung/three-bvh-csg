@@ -144,7 +144,9 @@ export class Evaluator {
 
 			const key = attributes[ i ];
 			const attr = aAttributes[ key ];
-			attributeData.initializeArray( key, attr.array.constructor );
+			if (attr !== null) {
+				attributeData.initializeArray( key, attr.array.constructor );
+			}
 
 		}
 
