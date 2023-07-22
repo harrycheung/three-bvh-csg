@@ -126,7 +126,7 @@ export class Evaluator {
 
 		this.triangleSplitter = new TriangleSplitter();
 		this.attributeData = new TypedAttributeData();
-		this.attributes = [ 'position', 'uv', 'normal' ];
+		this.attributes = [ 'position', 'normal' ];
 		this.useGroups = true;
 		this.debug = new OperationDebugData();
 
